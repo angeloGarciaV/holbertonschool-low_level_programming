@@ -1,2 +1,2 @@
 #!/bin/bash
-echo 'Hi'
+gcc -E $CFILE -o c
