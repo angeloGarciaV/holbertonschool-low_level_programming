@@ -1,7 +1,11 @@
 #include <stdio.h>
+
 /**
- * main - prints a string using printf and returns 0
+ * main - prints a string using puts
+ *
+ * Return: 0 (Success)
  */
+
 int main(void)
 {
 	printf("with proper grammar, but the outcome is a piece of art,\n");
