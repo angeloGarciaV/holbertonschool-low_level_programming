@@ -1,13 +1,16 @@
+#include <stdio.h>
 #include <unistd.h>
-#include <sys/syscall.h>
 
 /**
- * main - prints a message using syscall
- * Return: -1 (errno)
+ * main - Entry point
+ *
+ * Description: Prints a message using write()
+ *
+ * Return: 0 (Success)
  */
 
 int main(void)
 {
-	fprintf(stderr, "and that piece of art is useful\"- Dora Korpar, 2015-10-19");
+	write(2, "and that piece of art is useful\"- Dora Korpar, 2015-10-19\n", 59);
 	return (1);
 }
