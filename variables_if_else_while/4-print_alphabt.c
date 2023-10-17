@@ -3,7 +3,7 @@
 /**
   * main - this itterates through a-z and skips q and e with an if statement
   *
-  * return (0)
+  * Return: 0 (success)
   *
  */
 
@@ -13,10 +13,11 @@ int main(void)
 
 	for (c = 'a'; c <= 'z'; c++)
 	{
-		if (c == 'e' || 'q')
+		if (c == 'e' || c == 'q')
 		{
 			continue;
 		}
 		putchar (c);
 	}
+	return (0);
 }
