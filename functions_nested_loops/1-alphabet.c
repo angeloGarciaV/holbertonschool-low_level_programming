@@ -1,5 +1,4 @@
 #include <stdio.h>
-#include "main.h"
 
 /**
   * main - uses print_alphabet prototype to call the print_alphabet function
@@ -26,7 +25,7 @@ void print_alphabet(void)
 
 	for (c = 'a'; c <= 'z'; c++)
 	{
-		putchar (c);
+		putchar ((int)c);
 	}
 	putchar ('\n');
 }
