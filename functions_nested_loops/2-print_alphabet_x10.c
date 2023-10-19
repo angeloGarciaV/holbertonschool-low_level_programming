@@ -2,11 +2,11 @@
 #include "main.h"
 
 /**
-  * print_alphabetx10 - Prints the alpahbet 10 times in lowercase
+  * print_alphabet_x10 - Prints the alpahbet 10 times in lowercase
   *
   * Return: void (Success)
   */
-void print_alphabetx10(void)
+void print_alphabet_x10(void)
 {
 	int i;
 	char c;
