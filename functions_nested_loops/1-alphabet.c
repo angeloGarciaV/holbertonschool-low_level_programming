@@ -1,20 +1,6 @@
 #include <stdio.h>
 
 /**
-  * main - uses print_alphabet prototype to call the print_alphabet function
-  *
-  * Return: 0 (Success)
-  */
-
-void print_alphabet(void);
-
-int main(void)
-{
-	print_alphabet();
-	return (0);
-}
-
-/**
   * print_alphabet - uses a for loop to print the alphabet in lowercase
   *
   * Return: void (Success)
