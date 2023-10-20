@@ -2,12 +2,11 @@
 #include "main.h"
 
 /**
-  * print_sign - checks if a number is positive or negative and prints
-  * the appropriate sign.
+  * print_sign - Checks if a character is positive or negative
+  * and prints its sign.
   * @n: number to be checked
   * Return: 0 (Success)
   */
-
 int print_sign(int n)
 {
 	if (n > 0)
