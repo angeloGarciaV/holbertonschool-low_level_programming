@@ -1,6 +1,5 @@
 #include <stdio.h>
 #include "main.h"
-
 /**
   * print_sign - Checks if a character is positive or negative
   * and prints its sign.
@@ -24,5 +23,4 @@ int print_sign(int n)
 		putchar ('-');
 		return (-1);
 	}
-	return (0);
 }
