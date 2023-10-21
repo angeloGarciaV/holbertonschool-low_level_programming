@@ -3,9 +3,9 @@
 #include "main.h"
 
 /**
-  * _isupper - if statement 
-  * @c:
-  * Return:
+  * _isupper - if statement to check if the parameter is uppercase
+  * @c: parameter to check
+  * Return: 1 if uppercase, 0 otherwise
   */
 int _isupper(int c)
 {
