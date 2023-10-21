@@ -1,12 +1,12 @@
 #include <stdio.h>
 #include "main.h"
 /**
-  * times_tables - uses nested loops to multiply j * i
+  * times_table - uses nested loops to multiply j * i
   *
   * Return: void
   */
 
-void times_tables(void)
+void times_table(void)
 {
 	int i, j;
 
