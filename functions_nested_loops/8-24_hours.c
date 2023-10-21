@@ -17,7 +17,7 @@ void jack_bauer(void)
 			{
 				for (min2 = 0; min2 <= 9; min2++)
 				{
-					printf("%d%d:%d%d", hr1, hr2, min1, min2);
+					printf("%d%d:%d%d\n", hr1, hr2, min1, min2);
 				}
 			}
 		}
