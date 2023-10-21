@@ -5,7 +5,7 @@
   * _abs- prints the absolute value of an interger
   * @n:the number to check
   *
-  * Return: 0 (Success)
+  * Return: returns the absolute value of n
   */
 int _abs(int n)
 {
