@@ -3,7 +3,7 @@
 /**
   * print_more_numbers - prints the numbers 1-14, 10 times
   */
-void print_more_numbers(void)
+void more_numbers(void)
 {
 	int i, j;
 
