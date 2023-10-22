@@ -1,9 +1,9 @@
 #include <stdio.h>
 #include "main.h"
 /**
-  * more_numbers - prints the numbers 1-14, 10 times
+  * print_more_numbers - prints the numbers 1-14, 10 times
   */
-void more_numbers(void)
+void print_more_numbers(void)
 {
 	int i, j;
 
