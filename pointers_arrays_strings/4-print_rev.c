@@ -3,16 +3,16 @@
 #include <string.h>
 /**
   * print_rev -function that prints a string in reverse.
-  * @str:String to print.
+  * @s:String to print.
   */
-void print_rev(char *str)
+void print_rev(char *s)
 {
 	int i;
-	int ing = strlen(str);
+	int ing = strlen(s);
 
 	for (i = ing - 1; i >= 0; i--)
 	{
-		_putchar(str[i]);
+		_putchar(s[i]);
 	}
 	_putchar('\n');
 }
