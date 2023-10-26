@@ -1,3 +1,4 @@
+#include "main.h"
 #include <stdio.h>
 #include <string.h>
 /**
@@ -9,7 +10,7 @@ void print_rev(char *str)
 	int i;
 	int ing = strlen(str);
 
-	for (i = ing; i >= 0; i--)
+	for (i = ing - 1; i >= 0; i--)
 	{
 		_putchar(str[i]);
 	}
