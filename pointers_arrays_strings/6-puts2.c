@@ -14,11 +14,8 @@ void puts2(char *str)
 	{
 		if (i % 2 == 0)
 		{
-			puts(str[i]);
-		}
-		if(j == 0)
-		{
-			putchar('\n');
+			putchar(str[i]);
 		}
 	}
+	putchar('\n');
 }
