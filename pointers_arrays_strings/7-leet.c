@@ -6,18 +6,18 @@
   */
 char *leet(char *s)
 {
-	int i, j;
+	int i;
 	char easy_to_remember_name[] = "aAeEoOtTlL44337711";
 
 	for (i = 0; s[i] != '\0'; i++)
 	{
-		for (j = 0; j < 10; j++)
+		if (s[i] >= 'a' && s[i] <= 'z')
 		{
-			if (s[i] == easy_to_remember_name[j])
-			{
-				s[i] = easy_to_remember_name[j + 10];
-				break;
-			}
+			s[i] = easy_to_remember_name[s[i] - 'a'];
+		}
+		else if (s[i] >= 'A' && s[i] <= 'Z')
+		{
+			s[i] = easy_to_remember_name[s[i] - 'A'];
 		}
 	}
 	return (s);
