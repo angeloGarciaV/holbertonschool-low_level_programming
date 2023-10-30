@@ -14,8 +14,7 @@ char *leet(char *s)
 		if (s[i] >= 'a' && s[i] <= 'z')
 		{
 			s[i] = easy_to_remember_name[s[i] - 'a'];
-		}
-		else if (s[i] >= 'A' && s[i] <= 'Z')
+		} else if (s[i] >= 'A' && s[i] <= 'Z')
 		{
 			s[i] = easy_to_remember_name[s[i] - 'A'];
 		}
