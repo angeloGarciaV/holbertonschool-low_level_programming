@@ -1,4 +1,4 @@
-#include <stdio.c>
+#include <stdio.h>
 /**
  * _memcpy - copies memory area
  * @dest: destination of copy
