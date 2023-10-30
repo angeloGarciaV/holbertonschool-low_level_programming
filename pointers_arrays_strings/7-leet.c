@@ -6,8 +6,6 @@
   */
 char *leet(char *s)
 {
-	char *leet(char *s)
-{
 	int i, j;
 
 	char lowers[] = "aeotl";
