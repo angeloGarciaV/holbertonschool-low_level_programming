@@ -18,3 +18,4 @@ char *cap_string(char *s);
 char *leet(char *);
 char *_memset(char *s, char b, unsigned int n);
 char *_strchr(char *s, char c);
+char *_strpbrk(char *s, char *accept);
