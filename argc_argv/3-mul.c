@@ -8,17 +8,17 @@
   */
 int main(int argc, char *argv[])
 {
-	int i,j;
+	int i, j;
 
 	if (argc != 3)
 	{
 		printf("Error\n");
 		return (1);
 	}
-	
+
 	i = atoi(argv[1]);
 	j = atoi(argv[2]);
-	
+
 	if (i == 0 || j == 0)
 	{
 		printf("Error\n");
