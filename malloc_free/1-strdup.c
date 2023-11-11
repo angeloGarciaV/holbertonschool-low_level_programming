@@ -10,7 +10,7 @@
 char *_strdup(char *str)
 {
 	char *arr = (char *)malloc(sizeof(char) * strlen(str) + 1);
-	int i;
+	unsigned int i;
 
 	if (arr == NULL)
 	{
