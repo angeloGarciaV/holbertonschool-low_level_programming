@@ -1,5 +1,5 @@
-#ifndef dog
-#define dog
+#ifndef _struct_
+#define _struct_
 #include <stdio.h>
 #include <string.h>
 /**
