@@ -5,7 +5,7 @@
 /**
   * struct dog - dog structure
   * @name: string for name
-  * @age: int for age
+  * @age: float for age
   * @owner: string for name
   */
 struct dog
