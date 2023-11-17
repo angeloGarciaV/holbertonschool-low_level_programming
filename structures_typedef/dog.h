@@ -8,15 +8,13 @@
   * @age: float for age
   * @owner: string for name
   */
-struct dog_t
+typedef struct
 {
 	char *name;
 	float age;
 	char *owner;
-};
+}dog_t;
 
 void init_dog(struct dog_t *d, char *name, float age, char *owner);
 void print_dog(struct dog_t *d);
-typedef struct dog dog_t;
-dog_t *new_dog(char *name, float age, char *owner);
 #endif
