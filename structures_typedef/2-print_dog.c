@@ -11,34 +11,33 @@ void print_dog(struct dog *d)
 {
 	if (d == NULL)
 	{
-		printf("(nil)\n");
 		return;
 	}
 
 	printf("Name: ");
-	if (d->name == NULL)
+	if ((*d).name == NULL)
 	{
 		printf("(nil)\n");
 	} else
 	{
-		printf("%s\n", d->name);
+		printf("%s\n", (*d).name);
 	}
 
 	printf("Age: ");
-	if (isnan(d->age) || d->age < 0)
+	if (isnan((*d).age) || (*d).age < 0)
 	{
 		printf("(nil)\n");
 	} else
 	{
-		printf("%.2f\n", d->age);
+		printf("%.2f\n", (*d).age);
 	}
-	
+
 	printf("Owner: ");
-	if (d->owner == NULL)
+	if ((*d).owner == NULL)
 	{
 		printf("(nil)\n");
 	} else
 	{
-		printf("%s\n", d->owner);
+		printf("%s\n", (*d).owner);
 	}
 }
