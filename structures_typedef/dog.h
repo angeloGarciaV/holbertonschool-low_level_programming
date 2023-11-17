@@ -3,7 +3,7 @@
 #include <stdio.h>
 #include <string.h>
 /**
-  * struct dog - dog structure
+  * struct dog_t - dog structure
   * @name: string for name
   * @age: float for age
   * @owner: string for name
