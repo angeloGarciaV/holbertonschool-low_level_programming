@@ -8,7 +8,7 @@
   * @age: float for age
   * @owner: string for name
   */
-struct dog
+struct dog_t
 {
 	char *name;
 	float age;
