@@ -32,7 +32,7 @@ void print_all(const char * const format, ...)
 			printf("%f", (float) va_arg(args, double));
 			break;
 		case 's':
-			x = va_arg(arguments, char*);
+			x = va_arg(args, char*);
 			if (x != NULL)
 			{
 				printf("%s", x);
