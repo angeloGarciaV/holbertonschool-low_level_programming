@@ -1,6 +1,6 @@
+#include "3-calc"
 #include <stdio.h>
 #include <stdlib.h>
-#include "calc.h"
 
 /**
  * main - basic calculator
