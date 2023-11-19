@@ -4,8 +4,8 @@
 
 /**
  * main - basic calculator
- * @argc: number of arguments passed
- * @argv: array of pointers to functions
+ * @argc: number of arguments
+ * @argv: array of pointers
  *
  * Return: 0 on success
  */
