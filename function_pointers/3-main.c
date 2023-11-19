@@ -9,7 +9,7 @@
  *
  * Return: 0 on success
  */
-int main(int argc, char *argv[])
+void main(int argc, char *argv[])
 {
 	int i, j, k;
 	int (*f)(int, int);
@@ -32,6 +32,4 @@ int main(int argc, char *argv[])
 
 	k = f(i, j);
 	printf("%d\n", k);
-
-	return (0);
 }
