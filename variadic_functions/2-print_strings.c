@@ -40,8 +40,3 @@ void print_strings(const char *separator, const unsigned int n, ...)
 
 	va_end(args);
 }
-int main(void)
-{
-	print_strings("; ", 4, "You know", "", "nothing", NULL);
-	return (0);
-}
