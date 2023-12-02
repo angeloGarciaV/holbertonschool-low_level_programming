@@ -1,6 +1,7 @@
 #include "lists.h"
 #include <stdlib.h>
 #include <stdio.h>
+
 /**
  * add_dnodeint - function that adds a new node at the beginning of a
  * dlistint_t list
@@ -10,26 +11,23 @@
  */
 dlistint_t *add_dnodeint(dlistint_t **head, const int n)
 {
-	dlistint_t *newNode = malloc(sizeof(dlistint_t));
-	dlistint_t *current = *head;
+    dlistint_t *newNode = malloc(sizeof(dlistint_t));
 
-	if (newNode == NULL)
-	{
-		return (NULL);
-	}
-	if (current == NULL)
-	{
-	newNode->next = *head;
-	newNode->prev = NULL;
-	*head = newNode;
-	} else if (current->next != NULL)
-	{
-		newNode->next = current->next;
-		current->next->prev = newNode;
-		newNode->prev = *head;
-		(*head)->next = newNode;
-	}
-	newNode->n = n;
+    if (newNode == NULL)
+    {
+        return (NULL);
+    }
 
-	return (newNode);
+    newNode->n = n;
+    newNode->next = *head;
+    newNode->prev = NULL;
+
+    if (*head != NULL)
+    {
+        (*head)->prev = newNode;
+    }
+
+    *head = newNode;
+
+    return newNode;
 }
