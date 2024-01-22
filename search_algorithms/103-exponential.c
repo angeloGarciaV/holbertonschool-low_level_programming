@@ -24,6 +24,7 @@ int exponential_search(int *array, size_t size, int value)
 	{
 		printf("Value checked array[%ld] = [%d]\n", left, array[left]);
 		left = right;
+		jump *= 2;
 		right += jump;
 	}
 
